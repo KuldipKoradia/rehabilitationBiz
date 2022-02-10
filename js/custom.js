@@ -33,8 +33,26 @@ $(window).on('load',function() {
 	});
 });
 
+(function(d) {
+	var config = {
+		kitId: 'vix5xiy',
+		scriptTimeout: 3000,
+		async: true
+	},
+	h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+})(document);
+
 $(document).ready(function(){
 	
+	// fixed btns
+	$(window).on('load scroll',function(){
+		var	windowTop = $(window).scrollTop();
+		if(windowTop > 400) {
+			$('.fixed_btns').fadeIn();
+		} else {
+			$('.fixed_btns').fadeOut();
+		}
+	});
 
 	// got to page top js
 	// $(window).on('load scroll',function(){
