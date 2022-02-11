@@ -1338,5 +1338,7 @@ footer.site_footer .site_footer_copyright p {
         width: 24px;
         height: 24px;
     }
-
+    .company_map {
+        padding-top: 46%;
+    }
 }
