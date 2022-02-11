@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
 /*fonts css start*/
 /*FOT-TsukuARdGothic Std R
 font-family: fot-tsukuardgothic-std, sans-serif;
@@ -59,11 +61,23 @@ img{
     max-width: 100%;
     display: block;
 }
+.cpc-1166,
 .cpc {
     display: block !important;
 }
+.csp-1166,
 .csp {
     display: none !important;
+}
+@media (max-width: 1166px){
+    .cpc-1166,
+    .cpc {
+        display: none !important;
+    }
+    .csp-1166,
+    .csp {
+        display: block !important;
+    }
 }
 @media (max-width: 900px){
     .cpc{
@@ -116,12 +130,13 @@ a.btn_green {
     background-color: #72a010;
     position: relative;
     border-radius: 50px;
-    padding: 4px 20px 10px 20px;
+    padding: 8px 21px 10px 25px;
     font-size: 22px;
     color: #fff;
     font-weight: 600;
     z-index: 1;
     overflow: hidden;
+    font-family: 'Gen Jyuu Gothic X Monospace Normal';
 }
 a.btn_green:before {
     content: '';
@@ -156,12 +171,13 @@ a.btn_orange {
     background-color: #c07602;
     position: relative;
     border-radius: 50px;
-    padding: 4px 20px 10px 20px;
+    padding: 8px 21px 10px 25px;
     font-size: 28px;
     color: #fff;
     font-weight: 600;
     z-index: 1;
     margin-left: auto;
+    font-family: 'Gen Jyuu Gothic X Monospace Normal';
 }
 a.btn_orange:before {
     content: '';
@@ -176,14 +192,14 @@ a.btn_orange:before {
 }
 a.btn_orange span {
     width: 27px;
-    height: 29px;
+    height: 27px;
     background-color: #fff;
     display: inline-block;
     text-align: center;
     border-radius: 50%;
     color: #ff9c00;
     font-size: 15px;
-    line-height: 27px;
+    line-height: 28px;
     margin-right: 10px;
 }
 .common_heading h3 {
@@ -191,6 +207,7 @@ a.btn_orange span {
     font-size: 30px;
     color: #221815;
     font-weight: 700;
+    font-family: 'Gen Jyuu Gothic X Monospace Normal';
 }
 .common_heading p {
     text-align: center;
@@ -199,6 +216,9 @@ a.btn_orange span {
     font-weight: 500;
     margin-top: 15px;
     text-transform: uppercase;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-style: normal;
+    letter-spacing: 3px;
 }
 /*commmon grid css end*/
 
@@ -481,6 +501,8 @@ footer.site_footer .site_footer_about_content h6 {
     color: #221815;
     font-weight: 400;
     line-height: 35px;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-style: normal;
 }
 footer.site_footer .site_footer_about_content .footer_logo {
     max-width: 400px;
@@ -494,9 +516,10 @@ footer.site_footer .site_footer_about_content p {
 }
 footer.site_footer .site_footer_about_content h5 {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 900;
     color: #231815;
     margin-bottom: 12px;
+    font-family: 'Gen Jyuu Gothic X Monospace Normal';
 }
 footer.site_footer .footer_btn {
     margin: 0 -18px;
@@ -552,6 +575,8 @@ footer.site_footer .site_footer_copyright p {
     color: #221815;
     line-height: 1.4;
     text-align: center;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 700;
 }
 .banner_content_box .banner_image {
     max-width: 384px;
@@ -563,13 +588,15 @@ footer.site_footer .site_footer_copyright p {
 }
 .banner_content_box_inner p {
     font-size: 25px;
+    line-height: 1.6;
     font-style: italic;
     color: #fff;
-    font-weight: 500;
     position: relative;
     padding-left: 52px;
     display: table;
     margin: auto;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 700;
 }
 .banner_content_box_inner img {
     position: absolute;
@@ -582,12 +609,15 @@ footer.site_footer .site_footer_copyright p {
     text-align: center;
     font-size: 24px;
     color: #363633;
-    margin: 10px 0;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 700;
 }
-.banner_content_box > p {
+.banner_content_box_content > p {
     text-align: center;
     font-size: 19px;
     color: #363633;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 700;
 }
 .banner_content_box a.btn_green {
     margin: 16px auto 0;
@@ -602,6 +632,16 @@ footer.site_footer .site_footer_copyright p {
 .strengths_section .custom_container {
     max-width: 1286px;
     padding: 0px 30px;
+}
+.strengths_heading img {
+    margin: 0 auto 20px;
+}
+.strengths_heading p {
+    text-align: center;
+    font-size: 30px;
+    color: #1b1b1b;
+    font-weight: 600;
+    font-family: 'Gen Jyuu Gothic X Monospace Normal';
 }
 .strengths_content_sec .custom_row {
     align-items: center;
@@ -620,6 +660,7 @@ footer.site_footer .site_footer_copyright p {
     font-weight: 600;
     display: flex;
     align-items: center;
+    font-family: 'Gen Jyuu Gothic X Monospace Normal';
 }
 .strengths_content_text h3 img {
     margin-right: 30px;
@@ -679,6 +720,7 @@ footer.site_footer .site_footer_copyright p {
     font-weight: 700;
     display: -ms-flexbox;
     display: flex;
+    color: #434343;
     align-items: center;
 }
 .flow_content_text h3 .step_box {
@@ -692,6 +734,8 @@ footer.site_footer .site_footer_copyright p {
     padding: 7px 10px;
     border-radius: 29px;
     margin-right: 20px;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-style: normal;
 }
 .flow_content_text h3 .step_box span {
     font-size: 48px;
@@ -725,6 +769,8 @@ footer.site_footer .site_footer_copyright p {
     border: 1px solid #ecebe8;
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
+    color: #434343;
 }
 .faq_content h5 .question_label {
     position: absolute;
@@ -738,6 +784,8 @@ footer.site_footer .site_footer_copyright p {
     line-height: 48px;
     font-size: 35px;
     font-weight: 400;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-style: normal;
 }
 .faq_content h5 span {
     position: absolute;
@@ -760,7 +808,7 @@ footer.site_footer .site_footer_copyright p {
     margin: auto;
     background-color: #f0908a;
     width: 4px;
-    height: 26px;
+    height: 100%;
     border-radius: 0;
 }
 .faq_content h5.drop_icon_rotate span:before {
@@ -774,7 +822,7 @@ footer.site_footer .site_footer_copyright p {
     bottom: 0;
     margin: auto;
     background-color: #f0908a;
-    width: 26px;
+    width: 100%;
     height: 4px;
     border-radius: 0;
 }
@@ -785,7 +833,8 @@ footer.site_footer .site_footer_copyright p {
     overflow: hidden;
 }
 .faq_content .custom_drop_menu .drop_menu_item_container {
-    padding: 15px 40px 15px 85px;
+    padding: 15px 40px 15px 15px;
+    padding-right: 15px !important;
     position: relative;
 }
 .faq_content .custom_drop_menu .drop_menu_item_container label.answer_label {
@@ -800,6 +849,8 @@ footer.site_footer .site_footer_copyright p {
     line-height: 48px;
     font-size: 35px;
     font-weight: 400;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-style: normal;
 }
 .faq_content .custom_drop_menu p {
     color: #434343;
@@ -838,6 +889,9 @@ footer.site_footer .site_footer_copyright p {
     font-size: 16px;
     color: #434343;
     font-weight: 400;
+}
+.company_map_sec {
+    padding: 0 15px;
 }
 .company_map {
     position: relative;
@@ -880,7 +934,409 @@ footer.site_footer .site_footer_copyright p {
     margin: 40px -20px 0;
 }
 .listed_companies_logo li {
-    padding: 0 20px;
+    padding: 0 20px 15px;
 }
-
 /*listed companies section css end*/
+
+/*responsive css responsive*/
+@media (max-width: 1300px) {
+    .custom_container {
+        max-width: 1166px !important;
+        padding: 0px 15px !important;
+    }
+    .custom_row {
+        margin: 0px -15px !important;
+    }
+    .listed_companies_logo {
+        margin: 40px -15px 0;
+    }
+    .listed_companies_logo li,
+    .custom_col_6 {
+        padding:0 15px 15px !important;
+    }
+    .custom_col_6 {
+        padding-bottom: 0 !important;
+    }
+}
+@media (max-width: 1166px) {
+    .custom_container {
+        max-width: 900px !important;
+    }
+    .fixed_btns {
+        padding: 15px 0;
+    }
+    .banner_content_box {
+        padding: 164px 195px 122px 163px;
+    }
+    .banner_content_box h5 {
+        font-size: 26px;
+    }
+    .banner_content_box .banner_image {
+        max-width: 334px;
+        margin: 15px auto;
+    }
+    .banner_content_box_inner p {
+        font-size: 20px;
+        padding-left: 44px;
+    }
+    .banner_content_box_inner img {
+        max-width: 36px;
+    }
+    .banner_content_box h6 {
+        font-size: 22px;
+        line-height: 2;
+    }
+    a.btn_green {
+        height: 80px;
+        padding: 6px 21px 12px 32px;
+        font-size: 20px;
+    }
+    a.btn_orange {
+        height: 80px;
+        font-size: 24px;
+    }
+    footer.site_footer .site_footer_about,
+    .company_section,
+    .faq_section,
+    .flow_section,
+    .strengths_section {
+        padding: 50px 0;
+    }
+    .strengths_heading img {
+        max-width: 320px;
+    }
+    .common_heading h3,
+    .strengths_heading p {
+        font-size: 24px;
+    }
+    .strengths_content_text h3 img {
+        margin-right: 15px;
+        max-width: 100px;
+    }
+    .strengths_content_text h3 {
+        font-size: 24px;
+    }
+    .common_heading p {
+        margin-top: 6px;
+    }
+    .flow_content_text h3 .step_box {
+        min-width: 130px;
+        font-size: 18px;
+        padding: 4px 10px;
+        margin-right: 15px;
+    }
+    .flow_content_text h3 .step_box span {
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .flow_content_text h3 {
+        font-size: 22px;
+    }
+    .flow_content_image {
+        -ms-flex: 0 0 200px;
+        flex: 0 0 200px;
+        max-width: 200px;
+    }
+    .flow_content_text {
+        -ms-flex: 0 0 calc(100% - 200px);
+        flex: 0 0 calc(100% - 200px);
+        max-width: calc(100% - 200px);
+    }
+    .faq_content .custom_drop_menu .drop_menu_item_container,
+    .faq_content h5 {
+        padding: 15px 40px 15px 75px;
+    }
+    .faq_content .custom_drop_menu .drop_menu_item_container label.answer_label,
+    .faq_content h5 .question_label {
+        width: 60px;
+        line-height: 48px;
+        font-size: 30px;
+    }
+    .company_table_th, .company_table_td {
+        padding: 24px 15px;
+    }
+    .company_table_sec {
+        margin: 40px 0;
+    }
+    .company_map {
+        max-width: 900px;
+    }
+    .listed_companies_logo {
+        justify-content: space-evenly;
+        margin: 30px -20px 0;
+    }
+    footer.site_footer .site_footer_about_content .footer_logo {
+        max-width: 320px;
+        margin: 15px auto;
+    }
+    footer.site_footer .site_footer_about_content {
+        max-width: 626px;
+        padding: 0 15px;
+    }
+    footer.site_footer .site_footer_copyright {
+        padding: 16px 0 126px;
+    }
+}
+@media (max-width: 900px) {
+    header.site_header .header_logo img {
+        max-width: 160px;
+    }
+    header.site_header .custom_navbar ul li a {
+        font-size: 18px;
+        padding-left: 25px;
+    }
+    header.site_header .custom_navbar ul li a span {
+        width: 20px;
+        height: 20px;
+        color: #fff;
+        font-size: 11px;
+        line-height: 19px;
+    }
+    header.site_header .custom_navbar ul li a.header_btn {
+        height: 65px;
+        line-height: 65px;
+        font-size: 16px;
+        padding: 0 20px;
+        margin-left: 12px;
+    }
+    .banner_content_box {
+        padding: 153px 0 113px 0;
+        background-size: 100% 100%;
+        background-position: 13px center;
+    }
+    .banner_content_box_content {
+        max-width: 377px;
+        margin: auto;
+        text-align: center;
+    }
+    .banner_content_box h5 {
+        font-size: 20px;
+    }
+    .banner_content_box .banner_image {
+        max-width: 280px;
+        margin: 15px auto;
+    }
+    .banner_content_box h6 {
+        font-size: 18px;
+    }
+    .strengths_heading img {
+        max-width: 280px;
+    }
+    .common_heading h3, .strengths_heading p {
+        font-size: 20px;
+    }
+    .strengths_content_text h3 img {
+        margin-right: 12px;
+        max-width: 76px;
+    }
+    .strengths_heading img {
+        max-width: 221px;
+    }
+    .custom_col_6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .strengths_content_sec .custom_row {
+        margin-top: 40px !important;
+    }
+    .flow_content_image {
+        -ms-flex: 0 0 175px;
+        flex: 0 0 175px;
+        max-width: 175px;
+    }
+    .flow_content_text {
+        -ms-flex: 0 0 calc(100% - 175px);
+        flex: 0 0 calc(100% - 175px);
+        max-width: calc(100% - 175px);
+    }
+    .flow_content_text h3 .step_box {
+        min-width: 120px;
+    }
+    .flow_content_text h3 .step_box span {
+        font-size: 32px;
+        line-height: 33px;
+    }
+    .flow_content_text h3 {
+        font-size: 20px;
+    }
+    .company_map {
+        padding-top: 32.4%;
+    }
+    .fixed_btns_inner ul.custom_row li,
+    ul.footer_btn li {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    footer.site_footer .site_footer_copyright {
+        padding: 16px 0 139px;
+    }
+}
+@media (max-width: 675px) {
+    header.site_header .header_logo img {
+        max-width: 110px;
+    }
+    header.site_header .custom_navbar ul li a {
+        font-size: 16px;
+        padding-left: 23px;
+    }
+    header.site_header .custom_navbar ul li a span {
+        width: 18px;
+        height: 18px;
+        font-size: 9px;
+        line-height: 18px;
+    }
+    header.site_header .custom_navbar ul li a.header_btn {
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        padding: 0 10px;
+        margin-left: 6px;
+    }
+    .banner_content_box {
+        padding: 15px;
+        background-color: #fff;
+        background-image: none;
+        max-width: 375px;
+    }
+    .banner_content_box h5 {
+        font-size: 18px;
+    }
+    .banner_content_box .banner_image {
+        max-width: 230px;
+    }
+    .banner_content_box_inner p {
+        font-size: 16px;
+        padding-left: 35px;
+    }
+    .banner_content_box_inner img {
+        max-width: 28px;
+    }
+    .banner_content_box h6 {
+        font-size: 16px;
+    }
+    .banner_content_box_content > p {
+        font-size: 16px;
+        letter-spacing: -0.2px;
+    }
+    a.btn_green {
+        height: 70px;
+        padding: 4px 29px 9px 32px;
+        font-size: 16px;
+        max-width: 250px;
+    }
+    a.btn_orange {
+        height: 70px;
+        font-size: 22px;
+        max-width: 250px;
+    }
+    a.btn_green img {
+        max-width: 45px;
+    }
+    .strengths_heading img {
+        max-width: 150px;
+        margin: 0 auto 13px;
+    }
+    .common_heading h3, .strengths_heading p {
+        font-size: 18px;
+    }
+    .strengths_content_sec .custom_row {
+        margin-top: 30px !important;
+    }
+    .strengths_content_text h3 img {
+        max-width: 60px;
+    }
+    .strengths_content_text h3 {
+        font-size: 18px;
+    }
+    .flow_content_box {
+        border: 2px solid #ff9c00;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .flow_content_text,
+    .flow_content_image {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .flow_content_text {
+        padding: 0;
+    }
+    .flow_content_image {
+        padding-top: 44%;
+        margin-bottom: 15px;
+    }
+    .flow_content_text h3 {
+        font-size: 18px;
+    }
+    .flow_content_text h3 .step_box {
+        min-width: 100px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .flow_content_text h3 .step_box span {
+        font-size: 28px;
+        line-height: 26px;
+    }
+    .faq_content .custom_drop_menu .drop_menu_item_container label.answer_label, .faq_content h5 .question_label {
+        width: 50px;
+        line-height: 41px;
+        font-size: 22px;
+    }
+    .faq_content .custom_drop_menu .drop_menu_item_container, .faq_content h5 {
+        padding: 15px 40px 15px 65px;
+    }
+    .faq_content h5 {
+        font-size: 18px;
+    }
+    .company_table_th, .company_table_td {
+        padding: 15px;
+    }
+    .company_table_th p {
+        font-size: 18px;
+        min-width: 90px;
+    }
+    .listed_companies_logo {
+        justify-content: space-between;
+    }
+    .companys_logo img {
+        max-width: 162px;
+    }
+    footer.site_footer .site_footer_about_content {
+        padding: 0;
+        margin: auto;
+    }
+    footer.site_footer .site_footer_about_content h6 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    footer.site_footer .site_footer_about_content .footer_logo {
+        max-width: 220px;
+    }
+    footer.site_footer .site_footer_about_content h5 {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .fixed_btns_inner ul.custom_row li, ul.footer_btn li {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .fixed_btns_inner ul.custom_row li a,
+    footer.site_footer .footer_btn li a {
+        margin: auto;
+    }
+    footer.site_footer .site_footer_copyright {
+        padding: 16px 0 201px;
+    }
+    .fixed_btns_inner ul.custom_row li a.btn_green, footer.site_footer .footer_btn li a.btn_green {
+        margin-bottom: 15px;
+    }
+    .faq_content h5 span {
+        width: 24px;
+        height: 24px;
+    }
+
+}
