@@ -792,7 +792,7 @@ footer.site_footer .site_footer_copyright p {
     color: #fff;
     width: 70px;
     text-align: center;
-    line-height: 48px;
+    line-height: 50px;
     font-size: 35px;
     font-weight: 400;
     font-family: fot-tsukuardgothic-std, sans-serif;
@@ -844,7 +844,7 @@ footer.site_footer .site_footer_copyright p {
     overflow: hidden;
 }
 .faq_content .custom_drop_menu .drop_menu_item_container {
-    padding: 15px 40px 15px 15px;
+    padding: 15px 40px 15px 85px;
     padding-right: 15px !important;
     position: relative;
 }
@@ -857,7 +857,7 @@ footer.site_footer .site_footer_copyright p {
     color: #fff;
     width: 70px;
     text-align: center;
-    line-height: 48px;
+    line-height: 60px;
     font-size: 35px;
     font-weight: 400;
     font-family: fot-tsukuardgothic-std, sans-serif;
@@ -1060,7 +1060,6 @@ footer.site_footer .site_footer_copyright p {
     .faq_content .custom_drop_menu .drop_menu_item_container label.answer_label,
     .faq_content h5 .question_label {
         width: 60px;
-        line-height: 48px;
         font-size: 30px;
     }
     .company_table_th, .company_table_td {
@@ -1291,11 +1290,15 @@ footer.site_footer .site_footer_copyright p {
         font-size: 28px;
         line-height: 26px;
     }
-    .faq_content .custom_drop_menu .drop_menu_item_container label.answer_label, .faq_content h5 .question_label {
+    .faq_content .custom_drop_menu .drop_menu_item_container label.answer_label, 
+    .faq_content h5 .question_label {
         width: 50px;
-        line-height: 41px;
+        line-height: 52px;
         font-size: 22px;
     }
+    .faq_content .custom_drop_menu .drop_menu_item_container label.answer_label {
+    line-height: 57px;
+}
     .faq_content .custom_drop_menu .drop_menu_item_container, .faq_content h5 {
         padding: 15px 40px 15px 65px;
     }
