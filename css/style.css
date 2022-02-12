@@ -163,10 +163,7 @@ a.btn_green img {
     margin: 0 !important;
 }
 a.btn_green:hover {
-    background-color: #8fc31f;
-}
-a.btn_green:hover:before {
-    background-color: #72a010;
+    opacity: 0.7;
 }
 a.btn_orange {
     display: -ms-flexbox;
@@ -214,10 +211,7 @@ a.btn_orange span {
     margin-right: 10px;
 }
 a.btn_orange:hover {
-    background-color: #ff9c00;
-}
-a.btn_orange:hover:before {
-    background-color: #c07602;
+    opacity: 0.7;
 }
 .common_heading h3 {
     text-align: center;
