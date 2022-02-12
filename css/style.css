@@ -12,11 +12,11 @@ font-weight: 700;
 font-style: normal;*/
 @font-face {
     font-family: 'Gen Jyuu Gothic X Monospace Normal';
-    src: url('../GenJyuuGothicX-Monospace-Normal.eot');
-    src: url('../GenJyuuGothicX-Monospace-Normal.eot?#iefix') format('embedded-opentype'),
-        url('../GenJyuuGothicX-Monospace-Normal.woff2') format('woff2'),
-        url('../GenJyuuGothicX-Monospace-Normal.woff') format('woff'),
-        url('../GenJyuuGothicX-Monospace-Normal.ttf') format('truetype');
+    src: url('../fonts/GenJyuuGothicX-Monospace-Normal.eot');
+    src: url('../fonts/GenJyuuGothicX-Monospace-Normal.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GenJyuuGothicX-Monospace-Normal.woff2') format('woff2'),
+        url('../fonts/GenJyuuGothicX-Monospace-Normal.woff') format('woff'),
+        url('../fonts/GenJyuuGothicX-Monospace-Normal.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -449,6 +449,7 @@ header.site_header .custom_navbar ul li a {
     font-weight: 700;
     position: relative;
     padding-left: 28px;
+    font-family: fot-tsukuardgothic-std, sans-serif;
 }
 header.site_header .custom_navbar ul li a.header_btn {
     background-color: #ff9c00;
