@@ -1,33 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
 
-/*fonts css start*/
-/*FOT-TsukuARdGothic Std R
-font-family: fot-tsukuardgothic-std, sans-serif;
-font-weight: 400;
-font-style: normal;
-
-FOT-TsukuARdGothic Std B
-font-family: fot-tsukuardgothic-std, sans-serif;
-font-weight: 700;
-font-style: normal;*/
 @font-face {
     font-family: 'Gen Jyuu Gothic X Monospace Normal';
     src: url('../fonts/GenJyuuGothicX-Monospace-Normal.eot');
     src: url('../fonts/GenJyuuGothicX-Monospace-Normal.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GenJyuuGothicX-Monospace-Normal.woff2') format('woff2'),
-        url('../fonts/GenJyuuGothicX-Monospace-Normal.woff') format('woff'),
-        url('../fonts/GenJyuuGothicX-Monospace-Normal.ttf') format('truetype');
+    url('../fonts/GenJyuuGothicX-Monospace-Normal.woff2') format('woff2'),
+    url('../fonts/GenJyuuGothicX-Monospace-Normal.woff') format('woff'),
+    url('../fonts/GenJyuuGothicX-Monospace-Normal.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Gen Jyuu Gothic X Monospace Medium';
-    src: url('GenJyuuGothicX-Monospace-Medium.eot');
-    src: url('GenJyuuGothicX-Monospace-Medium.eot?#iefix') format('embedded-opentype'),
-        url('GenJyuuGothicX-Monospace-Medium.woff2') format('woff2'),
-        url('GenJyuuGothicX-Monospace-Medium.woff') format('woff'),
-        url('GenJyuuGothicX-Monospace-Medium.ttf') format('truetype');
+    src: url('../fonts/GenJyuuGothicX-Monospace-Medium.eot');
+    src: url('../fonts/GenJyuuGothicX-Monospace-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GenJyuuGothicX-Monospace-Medium.woff2') format('woff2'),
+    url('../fonts/GenJyuuGothicX-Monospace-Medium.woff') format('woff'),
+    url('../fonts/GenJyuuGothicX-Monospace-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -48,7 +38,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -font-smoothing: antialiased;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "Noto Sans JP", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 body.no_scroll {
     overflow: hidden;
@@ -147,7 +137,8 @@ a.btn_green {
     font-weight: 600;
     z-index: 1;
     overflow: hidden;
-    font-family: 'Gen Jyuu Gothic X Monospace Normal';
+    font-family: 'Gen Jyuu Gothic X Monospace Medium';
+    transition: all 0.4s;
 }
 a.btn_green:before {
     content: '';
@@ -159,6 +150,7 @@ a.btn_green:before {
     background-color: #8fc31f;
     z-index: -1;
     border-radius: 50px;
+    transition: all 0.4s;
 }
 a.btn_green label {
     border: 1px solid #fff;
@@ -169,6 +161,12 @@ a.btn_green label {
 }
 a.btn_green img {
     margin: 0 !important;
+}
+a.btn_green:hover {
+    background-color: #8fc31f;
+}
+a.btn_green:hover:before {
+    background-color: #72a010;
 }
 a.btn_orange {
     display: -ms-flexbox;
@@ -188,7 +186,8 @@ a.btn_orange {
     font-weight: 600;
     z-index: 1;
     margin-left: auto;
-    font-family: 'Gen Jyuu Gothic X Monospace Normal';
+    font-family: 'Gen Jyuu Gothic X Monospace Medium';
+    transition: all 0.4s;
 }
 a.btn_orange:before {
     content: '';
@@ -200,6 +199,7 @@ a.btn_orange:before {
     background-color: #ff9c00;
     z-index: -1;
     border-radius: 50px;
+    transition: all 0.4s;
 }
 a.btn_orange span {
     width: 27px;
@@ -213,12 +213,18 @@ a.btn_orange span {
     line-height: 28px;
     margin-right: 10px;
 }
+a.btn_orange:hover {
+    background-color: #ff9c00;
+}
+a.btn_orange:hover:before {
+    background-color: #c07602;
+}
 .common_heading h3 {
     text-align: center;
     font-size: 30px;
     color: #221815;
     font-weight: 700;
-    font-family: 'Gen Jyuu Gothic X Monospace Normal';
+    font-family: 'Gen Jyuu Gothic X Monospace Medium';
 }
 .common_heading p {
     text-align: center;
@@ -227,8 +233,6 @@ a.btn_orange span {
     font-weight: 500;
     margin-top: 15px;
     text-transform: uppercase;
-    font-family: fot-tsukuardgothic-std, sans-serif;
-    font-style: normal;
     letter-spacing: 3px;
 }
 /*commmon grid css end*/
@@ -460,7 +464,6 @@ header.site_header .custom_navbar ul li a {
     font-weight: 700;
     position: relative;
     padding-left: 28px;
-    font-family: fot-tsukuardgothic-std, sans-serif;
 }
 header.site_header .custom_navbar ul li a.header_btn {
     background-color: #ff9c00;
@@ -508,13 +511,14 @@ footer.site_footer .site_footer_about_content {
     text-align: center;
     padding: 0 18px;
 }
+footer.site_footer .site_footer_about_content .footer_text_image {
+    margin: auto;
+}
 footer.site_footer .site_footer_about_content h6 {
     font-size: 20px;
     color: #221815;
     font-weight: 400;
     line-height: 35px;
-    font-family: fot-tsukuardgothic-std, sans-serif;
-    font-style: normal;
 }
 footer.site_footer .site_footer_about_content .footer_logo {
     max-width: 400px;
@@ -531,7 +535,7 @@ footer.site_footer .site_footer_about_content h5 {
     font-weight: 900;
     color: #231815;
     margin-bottom: 12px;
-    font-family: 'Gen Jyuu Gothic X Monospace Normal';
+    font-family: 'Gen Jyuu Gothic X Monospace Medium';
 }
 footer.site_footer .footer_btn {
     margin: 0 -18px;
@@ -582,12 +586,16 @@ footer.site_footer .site_footer_copyright p {
     background-position: center;
     padding: 190px 157px 139px 119px;
 }
+.banner_content_box_content img.banner_text_2, 
+.banner_content_box_content img.banner_text_1 {
+    margin: auto;
+    width: 100%;
+}
 .banner_content_box h5 {
     font-size: 32px;
     color: #221815;
     line-height: 1.4;
     text-align: center;
-    font-family: fot-tsukuardgothic-std, sans-serif;
     font-weight: 700;
 }
 .banner_content_box .banner_image {
@@ -597,6 +605,7 @@ footer.site_footer .site_footer_copyright p {
 .banner_content_box_inner {
     background-color: #8fc31f;
     padding: 5px;
+    margin-bottom: 17px;
 }
 .banner_content_box_inner p {
     font-size: 25px;
@@ -607,7 +616,6 @@ footer.site_footer .site_footer_copyright p {
     padding-left: 52px;
     display: table;
     margin: auto;
-    font-family: fot-tsukuardgothic-std, sans-serif;
     font-weight: 700;
 }
 .banner_content_box_inner img {
@@ -621,14 +629,12 @@ footer.site_footer .site_footer_copyright p {
     text-align: center;
     font-size: 24px;
     color: #363633;
-    font-family: fot-tsukuardgothic-std, sans-serif;
     font-weight: 700;
 }
 .banner_content_box_content > p {
     text-align: center;
     font-size: 19px;
     color: #363633;
-    font-family: fot-tsukuardgothic-std, sans-serif;
     font-weight: 700;
 }
 .banner_content_box a.btn_green {
@@ -653,7 +659,7 @@ footer.site_footer .site_footer_copyright p {
     font-size: 30px;
     color: #1b1b1b;
     font-weight: 600;
-    font-family: 'Gen Jyuu Gothic X Monospace Normal';
+    font-family: 'Gen Jyuu Gothic X Monospace Medium';
 }
 .strengths_content_sec .custom_row {
     align-items: center;
@@ -672,7 +678,7 @@ footer.site_footer .site_footer_copyright p {
     font-weight: 600;
     display: flex;
     align-items: center;
-    font-family: 'Gen Jyuu Gothic X Monospace Normal';
+    font-family: 'Gen Jyuu Gothic X Monospace Medium';
 }
 .strengths_content_text h3 img {
     margin-right: 30px;
@@ -735,6 +741,10 @@ footer.site_footer .site_footer_copyright p {
     color: #434343;
     align-items: center;
 }
+.flow_content_text h3 .step_image {
+    max-width: 139px;
+    margin-right: 15px;
+}
 .flow_content_text h3 .step_box {
     display: inline-block;
     min-width: 140px;
@@ -746,7 +756,6 @@ footer.site_footer .site_footer_copyright p {
     padding: 7px 10px;
     border-radius: 29px;
     margin-right: 20px;
-    font-family: fot-tsukuardgothic-std, sans-serif;
     font-style: normal;
 }
 .flow_content_text h3 .step_box span {
@@ -793,11 +802,10 @@ footer.site_footer .site_footer_copyright p {
     color: #fff;
     width: 70px;
     text-align: center;
-    line-height: 50px;
+    line-height: 53px;
     font-size: 35px;
     font-weight: 400;
-    font-family: fot-tsukuardgothic-std, sans-serif;
-    font-style: normal;
+    font-family: 'Gen Jyuu Gothic X Monospace Medium'
 }
 .faq_content h5 span {
     position: absolute;
@@ -858,11 +866,10 @@ footer.site_footer .site_footer_copyright p {
     color: #fff;
     width: 70px;
     text-align: center;
-    line-height: 60px;
+    line-height: 64px;
     font-size: 35px;
     font-weight: 400;
-    font-family: fot-tsukuardgothic-std, sans-serif;
-    font-style: normal;
+    font-family: 'Gen Jyuu Gothic X Monospace Medium'
 }
 .faq_content .custom_drop_menu p {
     color: #434343;
@@ -1063,6 +1070,12 @@ footer.site_footer .site_footer_copyright p {
         width: 60px;
         font-size: 30px;
     }
+    .faq_content h5 .question_label {
+        line-height: 57px;
+    }
+    .faq_content .custom_drop_menu .drop_menu_item_container label.answer_label {
+        line-height: 62px;
+    }
     .company_table_th, .company_table_td {
         padding: 24px 15px;
     }
@@ -1086,6 +1099,17 @@ footer.site_footer .site_footer_copyright p {
     }
     footer.site_footer .site_footer_copyright {
         padding: 16px 0 126px;
+    }
+    .banner_content_box_content img.banner_text_2, 
+    .banner_content_box_content img.banner_text_1 {
+        margin: auto;
+        max-width: 400px;
+    }
+    .flow_content_text h3 .step_image {
+        max-width: 120px;
+    }
+    footer.site_footer .site_footer_about_content .footer_text_image {
+        max-width: 340px;
     }
 }
 @media (max-width: 900px) {
@@ -1183,6 +1207,12 @@ footer.site_footer .site_footer_copyright p {
     footer.site_footer .site_footer_copyright {
         padding: 16px 0 139px;
     }
+    .banner_content_box_content img.banner_text_2, .banner_content_box_content img.banner_text_1 {
+        max-width: 330px;
+    }
+    .flow_content_text h3 .step_image {
+        max-width: 100px;
+    }
 }
 @media (max-width: 675px) {
     header.site_header .header_logo img {
@@ -1206,23 +1236,24 @@ footer.site_footer .site_footer_copyright p {
         margin-left: 6px;
     }
     .banner_content_box {
-        padding: 15px;
-        background-color: #fff;
-        background-image: none;
-        max-width: 375px;
+        max-width: 440px;
+        padding: 114px 0 82px 0;
+        background-size: 440px 100%;
+        background-position: center;
     }
     .banner_content_box h5 {
         font-size: 18px;
     }
     .banner_content_box .banner_image {
-        max-width: 230px;
+        max-width: 200px;
+        margin: 10px auto;
     }
     .banner_content_box_inner p {
         font-size: 16px;
-        padding-left: 35px;
+        padding-left: 29px;
     }
     .banner_content_box_inner img {
-        max-width: 28px;
+        max-width: 24px;
     }
     .banner_content_box h6 {
         font-size: 16px;
@@ -1232,18 +1263,28 @@ footer.site_footer .site_footer_copyright p {
         letter-spacing: -0.2px;
     }
     a.btn_green {
-        height: 70px;
-        padding: 4px 29px 9px 32px;
+        height: 60px;
+        padding: 2px 21px 8px 22px;
         font-size: 16px;
-        max-width: 250px;
-    }
-    a.btn_orange {
-        height: 70px;
-        font-size: 22px;
-        max-width: 250px;
+        max-width: 212px;
     }
     a.btn_green img {
-        max-width: 45px;
+        max-width: 35px;
+    }
+    a.btn_green label {
+        padding: 2px 3px 1px 4px;
+    }
+    a.btn_orange {
+        height: 60px;
+        font-size: 20px;
+        max-width: 212px;
+    }
+    a.btn_orange span {
+        width: 22px;
+        height: 22px;
+        font-size: 13px;
+        line-height: 24px;
+        margin-right: 7px;
     }
     .strengths_heading img {
         max-width: 150px;
@@ -1294,12 +1335,12 @@ footer.site_footer .site_footer_copyright p {
     .faq_content .custom_drop_menu .drop_menu_item_container label.answer_label, 
     .faq_content h5 .question_label {
         width: 50px;
-        line-height: 52px;
+        line-height: 55px;
         font-size: 22px;
     }
     .faq_content .custom_drop_menu .drop_menu_item_container label.answer_label {
-    line-height: 57px;
-}
+        line-height: 61px;
+    }
     .faq_content .custom_drop_menu .drop_menu_item_container, .faq_content h5 {
         padding: 15px 40px 15px 65px;
     }
@@ -1344,7 +1385,7 @@ footer.site_footer .site_footer_copyright p {
         margin: auto;
     }
     footer.site_footer .site_footer_copyright {
-        padding: 16px 0 201px;
+        padding: 16px 0 183px;
     }
     .fixed_btns_inner ul.custom_row li a.btn_green, footer.site_footer .footer_btn li a.btn_green {
         margin-bottom: 15px;
@@ -1356,4 +1397,22 @@ footer.site_footer .site_footer_copyright p {
     .company_map {
         padding-top: 46%;
     }
+    .banner_content_box_content {
+        max-width: 307px;
+        padding-right: 18px;
+    }
+    .banner_content_box_content img.banner_text_2, 
+    .banner_content_box_content img.banner_text_1 {
+        max-width: 265px;
+    }
+    .banner_content_box_inner {
+        margin-bottom: 12px;
+    }
+    .flow_content_text h3 .step_image {
+        max-width: 90px;
+    }
+    footer.site_footer .site_footer_about_content .footer_text_image {
+        max-width: 320px;
+    }
+
 }
