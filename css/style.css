@@ -464,10 +464,14 @@ header.site_header .custom_navbar ul li a {
     font-weight: 700;
     position: relative;
     padding-left: 28px;
+    transition: all 0.4s;
+}
+header.site_header .custom_navbar ul li a:hover {
+    color: #c07602;
 }
 header.site_header .custom_navbar ul li a.header_btn {
     background-color: #ff9c00;
-    color: #fff;
+    color: #fff !important;
     display: block;
     height: 80px;
     line-height: 80px;
@@ -476,6 +480,10 @@ header.site_header .custom_navbar ul li a.header_btn {
     margin-left: 15px;
     text-align: center;
     font-weight: 400;
+    transition: all 0.4s;
+}
+header.site_header .custom_navbar ul li a.header_btn:hover {
+    background-color: #c07602;
 }
 header.site_header .custom_navbar ul li a span {
     width: 25px;
@@ -492,6 +500,10 @@ header.site_header .custom_navbar ul li a span {
     left: 0;
     bottom: 0;
     margin: auto;
+    transition: all 0.4s;
+}
+header.site_header .custom_navbar ul li a:hover span {
+    background-color: #c07602;
 }
 /*header css end*/
 
