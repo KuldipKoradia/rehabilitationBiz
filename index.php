@@ -597,41 +597,41 @@
 	<script src="js/intersection-observer-polyfill.js"></script>
 	<script src="js/custom.js"></script>
 	<script type="text/javascript">
-			//listed companies logos slider
-			$('.listed_companies_logos_slider').slick({
-				dots: false,
-				infinite: true,
-				slidesToShow: 3,
-				slidesToScroll: 1,
-				arrows: false,
-				centerMode: true,
-				centerPadding: '60px',
-				autoplay: true,
-				autoplaySpeed: 2000,
-				responsive: [
-				{
-					breakpoint: 676,
-					settings: {
-						arrows: false,
-						centerMode: true,
-						slidesToShow: 1,
-						centerPadding: '80px',
-					}
+		//listed companies logos slider
+		$('.listed_companies_logos_slider').slick({
+			dots: false,
+			infinite: true,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			arrows: false,
+			centerMode: true,
+			centerPadding: '60px',
+			autoplay: true,
+			autoplaySpeed: 2000,
+			responsive: [
+			{
+				breakpoint: 676,
+				settings: {
+					arrows: false,
+					centerMode: true,
+					slidesToShow: 1,
+					centerPadding: '80px',
 				}
-				]
-			});
-			$(".has_custom_drop_menu h5").click(function(e){
-				e.preventDefault();
-				if($(this).next().hasClass('open_drop_down') == true && $(this).hasClass('drop_icon_rotate')){
-					$(".custom_drop_menu").slideUp().removeClass('open_drop_down');
-					$(".has_custom_drop_menu h5").removeClass('drop_icon_rotate');
-				}else {
-					$(".custom_drop_menu").slideUp().removeClass('open_drop_down');
-					$(".has_custom_drop_menu h5").removeClass('drop_icon_rotate');
-					$(this).next().slideDown().addClass('open_drop_down');
-					$(this).addClass("drop_icon_rotate");
-				}
-			});
-		</script>
-	</body>
-	</html>
+			}
+			]
+		});
+		$(".has_custom_drop_menu h5").click(function(e){
+			e.preventDefault();
+			if($(this).next().hasClass('open_drop_down') == true && $(this).hasClass('drop_icon_rotate')){
+				$(".custom_drop_menu").slideUp().removeClass('open_drop_down');
+				$(".has_custom_drop_menu h5").removeClass('drop_icon_rotate');
+			}else {
+				$(".custom_drop_menu").slideUp().removeClass('open_drop_down');
+				$(".has_custom_drop_menu h5").removeClass('drop_icon_rotate');
+				$(this).next().slideDown().addClass('open_drop_down');
+				$(this).addClass("drop_icon_rotate");
+			}
+		});
+	</script>
+</body>
+</html>
