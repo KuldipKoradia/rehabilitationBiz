@@ -31,11 +31,14 @@
 		<div class="fixed_btns_inner">
 			<ul class="custom_row">
 				<li class="custom_col_6">
-					<a href="https://www.ryoikubiz.com/consultant.html" class="btn_green"><span>コーディネーター<br>に相談する <label>無料</label></span><img src="images/footer_image.png">
-					</a>
+					<!-- <a href="https://www.ryoikubiz.com/consultant.html" class="btn_green"><span>コーディネーター<br>に相談する <label>無料</label></span><img src="images/footer_image.png"></a> -->
+					<a href="https://www.ryoikubiz.com/consultant.html" class="btn green">コーディネーター<br>に相談する<span>無料</span></a>
 				</li>
 				<li class="custom_col_6">
-					<a href="tel:0364579812" class="btn_orange">
+					<!-- <a href="tel:0364579812" class="btn_orange">
+						<span><i class="fas fa-phone-alt" aria-hidden="true"></i></span>03-6457-9812
+					</a> -->
+					<a href="tel:0364579812" class="btn red">
 						<span><i class="fas fa-phone-alt" aria-hidden="true"></i></span>03-6457-9812
 					</a>
 				</li>
@@ -52,7 +55,7 @@
 						<p><img src="images/banner_image_2.png">求職者信頼度 療育部門ナンバー１!</p>
 					</div>
 					<img src="images/banner_logo_text_2.png" class="banner_text_2">
-					<a href="https://www.ryoikubiz.com/consultant.html" class="btn_green"><span>コーディネーター<br>に相談する <label>無料</label></span><img src="images/footer_image.png"></a>
+					<a href="https://www.ryoikubiz.com/consultant.html" class="btn green">コーディネーター<br>に相談する<span>無料</span></a>
 				</div>
 			</div>
 		</div>
@@ -273,48 +276,49 @@
 			</div>
 		</div>
 		<div class="company_table_sec">
-			<div class="company_table">
-				<div class="company_table_row">
-					<div class="company_table_th">
+			<table class="company_table">
+				<tr class="company_table_row">
+					<th class="company_table_th">
 						<p>会社名</p>
-					</div>
-					<div class="company_table_td">
+					</th>
+					<td class="company_table_td">
 						<p>株式会社タキザワキャリア</p>
-					</div>
-				</div>
-				<div class="company_table_row">
-					<div class="company_table_th">
+					</td>
+				</tr>
+				<tr class="company_table_row">
+					<th class="company_table_th">
 						<p>代表取締役</p>
-					</div>
-					<div class="company_table_td">
+					</th>
+					<td class="company_table_td">
 						<p>佐々木 雄</p>
-					</div>
-				</div>
-				<div class="company_table_row">
-					<div class="company_table_th">
+					</td>
+				</tr>
+				<tr class="company_table_row">
+					<th class="company_table_th">
 						<p>住所</p>
-					</div>
-					<div class="company_table_td">
+					</th>
+					<td class="company_table_td">
 						<p>〒105-0001　東京都港区虎ノ門1-16-2岩尾ビル4階</p>
-					</div>
-				</div>
-				<div class="company_table_row">
-					<div class="company_table_th">
+					</td>
+				</tr>
+				<tr class="company_table_row">
+					<th class="company_table_th">
 						<p>電話番号</p>
-					</div>
-					<div class="company_table_td">
+					</th>
+					<td class="company_table_td">
 						<p>03-6457-9812</p>
-					</div>
-				</div>
-				<div class="company_table_row">
-					<div class="company_table_th">
+					</td>
+				</tr>
+				<tr class="company_table_row">
+					<th class="company_table_th">
 						<p>事業内容</p>
-					</div>
-					<div class="company_table_td">
+					</th>
+					<td class="company_table_td">
 						<p>人材紹介事業</p>
-					</div>
-				</div>
-			</div>
+					</td>
+				</tr>
+			</table>
+
 		</div>
 		<div class="company_map_sec">
 			<div class="company_map">
@@ -329,235 +333,31 @@
 				<p>company</p>
 			</div>
 			<div class="listed_companies_logos_sec">
-				<div class="cpc9">
-					<ul class="listed_companies_logo">
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_1.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_2.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_3.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_4.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_5.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_6.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_7.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_8.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_9.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_10.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_11.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_12.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_13.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_14.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_15.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_16.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_17.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_18.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_19.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_20.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_21.png">
-							</div>
-						</li>
-						<li>
-							<div class="companys_logo">
-								<img src="images/companies_logo_22.png">
-							</div>
-						</li>
+				<div class="mywidth">
+					<ul class="sp-slider-01">
+						<li><a href="" target="_blank"><img src="images/companies_logo_1.png" alt="放課後等デイサービス  リタリコ"></a></li>
+						<li><a href="https://kirari-kodomo.com/" target="_blank"><img src="images/companies_logo_2.png" alt="こどもサポート教室　キラリあいあいクラ・ゼミ"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_3.png" alt="コペルプラス"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_4.png" alt="放課後等デイサービスウィズユー"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_5.png" alt="コパンハウスさくら"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_6.png" alt="ハビー児童発達支援、放課後等デイサービス"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_7.png" alt="ハッピーキッズスペースみんと"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_8.png" alt="放課後等デイサビス　ハッピーテラス　"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_9.png" alt="そらひろ"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_10.png" alt="スマイルキッズ"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_11.png" alt="サンクスラボ"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_12.png" alt="LEIF"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_13.png" alt="ライズ児童デイサービス"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_14.png" alt="放課後等デイサービス夢門塾"></a></li>
+						<li><a href="" target="_blank"><img src="images/companies_logo_15.png" alt="株式会社マミーズエンジェル"></a></li>
+						<li><a href="http://www.sawayakaclub.jp/ainoie_guide/" target="_blank"><img src="images/companies_logo_16.png" alt="株式会社さわやか倶楽部"></a></li>
+						<li><a href="https://smart-kids.co.jp/" target="_blank"><img src="images/companies_logo_17.png" alt="スマートキッズ "></a></li>
+						<li><a href="https://smart-kids.co.jp/" target="_blank"><img src="images/companies_logo_18.png" alt="スマートキッズ "></a></li>
+						<li><a href="https://terapiapocket.com/" target="_blank"><img src="images/companies_logo_19.png" alt="てらぴあぽけっと"></a></li>
+						<li><a href="https://kodomo-plus.co.jp/" target="_blank"><img src="images/companies_logo_20.png" alt="こどもプラス"></a></li>
+						<li><a href="https://www.kodomocircle.com/" target="_blank"><img src="images/companies_logo_21.png" alt="こどもサークル "></a></li>
+						<!-- <li><a href="https://likes-kawaguchi.com/" target="_blank"><img src="images/companies_logo_22.png" alt="叱られない教室らいくす "></a></li> -->
 					</ul>
-				</div>
-				<div class="listed_companies_logos_slider_sec csp9">
-					<div class="">
-						<div class="listed_companies_logos_slider">
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_1.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_2.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_3.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_4.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_5.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_6.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_7.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_8.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_9.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_10.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_11.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_12.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_13.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_14.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_15.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_16.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_17.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_18.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_19.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_20.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_21.png">
-								</div>
-							</div>
-							<div>
-								<div class="companys_logo">
-									<img src="images/companies_logo_22.png">
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -573,11 +373,10 @@
 					<h5>お気軽にお電話もしくはメールでご連絡ください</h5>
 					<ul class="footer_btn custom_row">
 						<li class="custom_col_6">
-							<a href="https://www.ryoikubiz.com/consultant.html" class="btn_green"><span>コーディネーター<br>に相談する <label>無料</label></span><img src="images/footer_image.png">
-							</a>
+							<a href="https://www.ryoikubiz.com/consultant.html" class="btn green">コーディネーター<br>に相談する<span>無料</span></a>
 						</li>
 						<li class="custom_col_6">
-							<a href="tel:0364579812" class="btn_orange">
+							<a href="tel:0364579812" class="btn red">
 								<span><i class="fas fa-phone-alt" aria-hidden="true"></i></span>03-6457-9812
 							</a>
 						</li>
@@ -597,40 +396,43 @@
 	<script src="js/intersection-observer-polyfill.js"></script>
 	<script src="js/custom.js"></script>
 	<script type="text/javascript">
-		//listed companies logos slider
-		$('.listed_companies_logos_slider').slick({
-			dots: false,
-			infinite: true,
-			slidesToShow: 3,
-			slidesToScroll: 1,
-			arrows: false,
-			centerMode: true,
-			centerPadding: '60px',
-			autoplay: true,
-			autoplaySpeed: 2000,
-			responsive: [
-			{
-				breakpoint: 676,
-				settings: {
-					arrows: false,
-					centerMode: true,
-					slidesToShow: 1,
-					centerPadding: '80px',
+		jQuery(document).ready(function() {
+
+			//faq JS
+			$(".has_custom_drop_menu h5").click(function(e){
+				e.preventDefault();
+				if($(this).next().hasClass('open_drop_down') == true && $(this).hasClass('drop_icon_rotate')){
+					$(".custom_drop_menu").slideUp().removeClass('open_drop_down');
+					$(".has_custom_drop_menu h5").removeClass('drop_icon_rotate');
+				}else {
+					$(".custom_drop_menu").slideUp().removeClass('open_drop_down');
+					$(".has_custom_drop_menu h5").removeClass('drop_icon_rotate');
+					$(this).next().slideDown().addClass('open_drop_down');
+					$(this).addClass("drop_icon_rotate");
+				}
+			});
+
+			//listed companies logos slider JS
+			var mql = window.matchMedia('screen and (max-width: 650px)');
+			function checkBreakPoint(mql) {
+				if (mql.matches) {
+					$('.sp-slider-01').not('.slick-initialized').slick({
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						autoplay: true,
+						autoplaySpeed: 3000,
+						speed: 1000,
+						arrows: false,
+						dots: false,
+						centerMode: false,
+						swipe: true
+					});
+				} else {
+					$('.sp-slider-01.slick-initialized').slick('unslick');
 				}
 			}
-			]
-		});
-		$(".has_custom_drop_menu h5").click(function(e){
-			e.preventDefault();
-			if($(this).next().hasClass('open_drop_down') == true && $(this).hasClass('drop_icon_rotate')){
-				$(".custom_drop_menu").slideUp().removeClass('open_drop_down');
-				$(".has_custom_drop_menu h5").removeClass('drop_icon_rotate');
-			}else {
-				$(".custom_drop_menu").slideUp().removeClass('open_drop_down');
-				$(".has_custom_drop_menu h5").removeClass('drop_icon_rotate');
-				$(this).next().slideDown().addClass('open_drop_down');
-				$(this).addClass("drop_icon_rotate");
-			}
+			mql.addListener(checkBreakPoint);
+			checkBreakPoint(mql);
 		});
 	</script>
 </body>

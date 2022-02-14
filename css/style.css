@@ -241,6 +241,8 @@ a.btn_orange span {
     line-height: 28px;
     margin-right: 10px;
 }
+a.btn.red:hover,
+a.btn.green:hover,
 a.btn_orange:hover {
     opacity: 0.7;
 }
@@ -260,6 +262,80 @@ a.btn_orange:hover {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+a.btn.green {
+    display: block;
+    width: 280px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.18;
+    box-shadow: 0px 5px 0 0 #72a010;
+    padding-top: 12px;
+    padding-left: 37px;
+    position: relative;
+    background: #8fc31f;
+    transition: 0.3s;
+    text-align: left !important;
+}
+a.btn.green span {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-left: 3px;
+    padding: 1px 2px 4px 3px;
+    line-height: 1;
+}
+a.btn.green:before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 51px;
+    height: 63px;
+    background: url(https://ryoikubiz.com/common/images/icon-btn02.png) center center no-repeat;
+    background-size: 100%;
+    right: 22px;
+    bottom: 12px;
+    transition: 0.3s;
+}
+a.btn.red {
+    box-shadow: 0px 5px 0 0 #c07602;
+    margin-right: 27px;
+    padding-top: 26px;
+    padding-left: 90px;
+    position: relative;
+    display: block;
+    width: 280px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.18;
+    background: #ff9c00!important;
+    transition: 0.3s;
+    text-align: left !important;
+}
+a.btn.red span {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    color: #ff9c00;
+    font-size: 16px;
+    line-height: 28px;
+    position: absolute;
+    top: 0;
+    left: 44px;
+    bottom: 0;
+    margin: auto;
+}
+
 /*commmon grid css end*/
 
 /*page pre-loader css start*/
@@ -669,8 +745,8 @@ footer.site_footer .site_footer_copyright p {
     color: #363633;
     font-weight: 700;
 }
-.banner_content_box a.btn_green {
-    margin: 16px auto 0;
+.banner_content_box_content a.btn.green {
+    margin: 15px auto 0;
 }
 /*banner section css end*/
 
@@ -919,16 +995,12 @@ footer.site_footer .site_footer_copyright p {
     margin: 40px 0 70px;
 }
 .company_table {
-    display: table;
     width: 630px;
     max-width: 100%;
     margin: auto;
-}
-.company_table_row {
-    display: table-row;
+    border-collapse: collapse;
 }
 .company_table_th, .company_table_td {
-    display: table-cell;
     border-bottom: 1px solid #d1cdc6;
     padding: 30px 15px;
 }
@@ -936,6 +1008,7 @@ footer.site_footer .site_footer_copyright p {
     font-size: 20px;
     color: #434343;
     font-weight: 700;
+    text-align: left;
 }
 .company_table_td p {
     font-size: 16px;
@@ -1000,6 +1073,25 @@ footer.site_footer .site_footer_copyright p {
     align-items: center;
     justify-content: center;
 }
+.mywidth ul {
+    margin-right: -50px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.mywidth ul li {
+    width: 14%;
+    padding: 0 30px;
+}
+.mywidth li {
+    mix-blend-mode: multiply;
+}
+
 /*listed companies section css end*/
 
 /*responsive css responsive*/
@@ -1259,6 +1351,18 @@ footer.site_footer .site_footer_copyright p {
     .flow_content_text h3 .step_image {
         max-width: 100px;
     }
+    .mywidth ul {
+        margin-right: 0;
+    }
+    .mywidth ul li {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    .mywidth ul li img {
+        width: 100%;
+        height: 80px;
+        object-fit: contain;
+    }
 }
 @media (max-width: 675px) {
     .flow_content_box p {
@@ -1447,39 +1551,40 @@ footer.site_footer .site_footer_copyright p {
         flex: 0 0 50%;
         max-width: 50%;
     }
-    .fixed_btns_inner ul.custom_row li a.btn_green {
+    .fixed_btns_inner ul.custom_row li a.btn.green {
+        width: 146px;
         height: 48px;
-        padding: 0 14px 4px 19px;
         font-size: 10px;
-        max-width: 146px;
+        padding-top: 9px;
+        padding-left: 16px;
     }
-    .fixed_btns_inner ul.custom_row li a.btn_green span {
-        line-height: 13px;
+    .fixed_btns_inner ul.custom_row li a.btn.green span {
+        font-size: 10px;
     }
-    .fixed_btns_inner ul.custom_row li a.btn_green img {
-        max-width: 25px;
+    .fixed_btns_inner ul.custom_row li a.btn.green:before {
+        width: 29px;
+        height: 37px;
+        bottom: 7px;
+        right: 14px;
     }
-    .fixed_btns_inner ul.custom_row li a.btn_green:before,
-    .fixed_btns_inner ul.custom_row li a.btn_orange:before {
-        bottom: 4px;
-    }
-    .fixed_btns_inner ul.custom_row li a.btn_orange {
+    .fixed_btns_inner ul.custom_row li a.btn.red {
+        padding-top: 17px;
+        padding-left: 44px;
+        width: 146px;
         height: 48px;
-        font-size: 16px;
-        max-width: 146px;
-        padding: 0 15px 4px 15px;
+        font-size: 13px;
     }
-    .fixed_btns_inner ul.custom_row li a.btn_orange span {
-        width: 16px;
-        height: 16px;
-        font-size: 8px;
+    .fixed_btns_inner ul.custom_row li a.btn.red span {
+        width: 17px;
+        height: 17px;
+        font-size: 10px;
         line-height: 16px;
-        margin-right: 4px;
+        left: 18px;
     }
     footer.site_footer .site_footer_copyright {
         padding: 16px 0 79px;
     }
-    footer.site_footer .footer_btn li a.btn_green {
+    ul.footer_btn.custom_row a.btn.green {
         margin-bottom: 15px;
     }
     .faq_content h5 span {
@@ -1506,4 +1611,34 @@ footer.site_footer .site_footer_copyright p {
     footer.site_footer .site_footer_about_content .footer_text_image {
         max-width: 320px;
     }
-}
+    a.btn.green {
+        width: 225px;
+        height: 60px;
+        font-size: 16px;
+        padding-top: 8px;
+        padding-left: 25px;
+    }
+    a.btn.green span {
+        font-size: 16px;
+    }
+    a.btn.green:before {
+        width: 38px;
+        height: 48px;
+        bottom: 9px;
+    }
+    a.btn.red {
+        padding-top: 20px;
+        padding-left: 75px;
+        width: 225px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 1.18;
+    }
+    a.btn.red span {
+        width: 22px;
+        height: 22px;
+        font-size: 13px;
+        line-height: 21px;
+        left: 43px;
+    }
+}   
